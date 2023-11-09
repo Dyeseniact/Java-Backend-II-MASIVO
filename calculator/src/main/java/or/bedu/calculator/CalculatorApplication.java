@@ -64,8 +64,6 @@ public class CalculatorApplication implements CommandLineRunner {
 				resultado = cal.mult(a, b);
 				break;
 		
-			default:
-				break;
 		}
 
 		System.out.println("Resultado: " +  resultado);
